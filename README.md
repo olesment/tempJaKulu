@@ -1,6 +1,6 @@
 # Õuetemperatuuri ja elektriandmete sidumise rakendus
 Loodud rakendus võimaldab võtta Eleringi lehelt tarbimispunkti andmed (kuni 3 kuud) ning siduda need Netatmo ilmajaama mõõteandmetega. Praeguses versioonis, et pilt liiga kirjuks ei läheks on lahendus teostatud päeva põhiselt. Energiakulu liidetakse. Temperatuuri osas arvutatakse päeva keskmine. 
-
+* rakendus on üleval: https://energiakulu.vercel.app/ 
 ## App.js
 Peamine rakenduse fail. 
 
