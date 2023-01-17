@@ -4,7 +4,7 @@ import { TemperatureToJSON, ConsumptionToJSON } from './UtilsDaily';
 
 
 // lubatud faili laiendid
-const allowedExtensions = ["csv", "txt", "tsv"];
+const allowedExtensions = ["csv", "vnd.ms-excel"];
 
 const App = () => {
 	const [temperaturedata, setTempratureData] = useState([]);
@@ -19,6 +19,7 @@ const App = () => {
 
 			// kas fail on csv laiendiga? 
 			const fileExtension = inputFile?.type.split("/")[1];
+			console.log(inputFile, fileExtension);
 			if (!allowedExtensions.includes(fileExtension)) {
 				setError("Ainult CSV laiendiga failid sobivad");
 				return;
